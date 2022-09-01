@@ -13,6 +13,7 @@ function App() {
       <NavigationBar/>
       <Landing/>
       <Isi/>
+      <Testi/>
       </div>
     </div>
   );

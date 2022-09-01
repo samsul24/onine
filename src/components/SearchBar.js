@@ -12,7 +12,7 @@ class SearchBar extends Component {
   render() {
     return (
       <div>
-        <Navbar bg="primary" variant="dark" className="overflow-auto w-full mb-3 m-3">
+        <Navbar bg="primary" variant="dark" className="overflow-auto w-full ">
           <Container>
 
             <Navbar.Brand href="#home">
