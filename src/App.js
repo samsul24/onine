@@ -3,6 +3,8 @@ import NavigationBar from './components/NavigationBar';
 import SearchBar from './components/SearchBar';
 import Landing from './components/Landing';
 import Isi from './components/Isi';
+import Testi from './components/Testi';
+
 import "./style/landingPage.css"
 function App() {
   return (
