@@ -1,4 +1,4 @@
-import {Navbar, Container,Nav,Button } from "react-bootstrap"
+import {Navbar, Container,Nav,Button,Col,Row } from "react-bootstrap"
 import Carousel from 'react-bootstrap/Carousel';
 import Trending from "./../assets/trending.png";
 import list1 from "./../assets/isi1.png";
@@ -19,7 +19,7 @@ const Isi = () => {
     <div>
         <Container>
    
-    <Navbar>
+    <Navbar className="overflow-auto w-full mb-3 m-3">
         <br></br>
         <br></br>
         <br></br>
@@ -31,8 +31,12 @@ const Isi = () => {
        
         <Carousel>
           <Carousel.Item>
+          <Row>
+          <Col>
           <img src={list1} alt="" width="210" height="250" className="d-inline-block align-top"/>{' '}
             <img src={list1} alt="" width="210" height="250" className="d-inline-block align-top"/>{' '}
+          </Col>
+          </Row>
             <img src={list1} alt="" width="210" height="250" className="d-inline-block align-top"/>{' '}
             <img src={list1} alt="" width="210" height="250" className="d-inline-block align-top"/>{' '}
             <img src={list1} alt="" width="210" height="250" className="d-inline-block align-top"/>{' '}
